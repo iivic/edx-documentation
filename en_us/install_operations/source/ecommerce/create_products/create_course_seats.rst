@@ -47,6 +47,8 @@ To create a course seat, follow these steps.
      * **Price (in USD)**
      * **ID Verification Required?**
      * **Upgrade Deadline**
+     * **Verification Deadline**: This option is required if you select **Yes**
+       for **ID Verification Required?**
 
    * If you select **Credit**, you must add the following information.
 

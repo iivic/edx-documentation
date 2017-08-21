@@ -265,20 +265,24 @@ To specify usage limitations, follow these steps.
      you create enough discount or enrollment codes so that each person receives
      one code.
 
-   * **Can be used once by multiple customers** or **Can be used multiple times
-     by multiple customers**
+   * **Can be used once by multiple customers** or
+   * **Can be used multiple times by multiple customers**
 
-     If you select one of these options, the **Maximum Number of Usages** field
-     is visible. In this field, specify the number of times customers can use
-     the coupon code.
+     If you select one of these options, the **Maximum Number of Uses** field is
+     visible. In this field, specify the number of times customers can use the
+     coupon code.
 
-     For example, if you want to create a coupon code that is available for 10
-     different customers, and each customer can use the code only one time,
-     enter **10** for **Can be used once by multiple customers**.
+     For example, if you want to create a single coupon code that is available
+     for use by 10 different customers, and each customer can use the code
+     only one time, select **Can be used once by multiple customers** , ``1``
+     for **Number of Codes**, and ``1`` for **Maximum Number of Uses**.
 
-     If you want to create a coupon code that is available for 10 uses, whether
-     by one customer or multiple customers, enter **10** for **Can be used
-     multiple times by multiple customers**.
+.. Are these examples correct? Original doc for the first example did not seem right.
+
+     If you want to create a coupon code that is available for 10 uses,
+     whether by one customer or multiple customers, select **Can be used
+     multiple times by multiple customers**, ``1`` for **Number of Codes**,
+     and ``10`` for **Maximum Number of Uses**.
 
 After you specify usage limitations, you must specify invoicing options for
 your coupon.
@@ -453,7 +457,7 @@ You edit a coupon by using the coupon administration tool.
  * **Single course** or **Multiple courses**
  * **Seat Type**
  * **Usage Limitations**
- * **Number of Codes** or **Maximum Number of Usages**
+ * **Number of Codes** or **Maximum Number of Uses**
 
 #. In your browser, go to ``http://localhost:8002/coupons/`` to open the coupon
    administration tool.
