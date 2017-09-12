@@ -19,12 +19,15 @@ E-Commerce web pages.
 
 * Enrollment codes allow users to purchase bulk enrollments for a course.
 
+
+.. _Start ECommerce Service:
+
 ******************************
-Prepare to Create a Product
+Start the E-Commerce Service
 ******************************
 
-Before you create a product, complete the following steps to start the
-E-Commerce service on your site.
+Before you can create a product, you must start the E-Commerce service on your
+site. Follow these steps to start the E-Commerce service.
 
 #. In the ecommerce and LMS configuration files (``/edx/etc/ecommerce.yml`` and
    ``/edx/app/edxapp/lms.auth.json``, respectively), verify the following

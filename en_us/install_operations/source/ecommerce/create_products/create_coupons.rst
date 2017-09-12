@@ -42,11 +42,15 @@ Enter Basic Information
 Each coupon requires some basic information. To enter basic information for
 your coupon, follow these steps.
 
-#. Follow the steps in :ref:`Create Products Overview` to start your E-Commerce
-   server.
+#. Start the E-Commerce Service on your site. For details, see :ref:`Start
+   ECommerce Service`.
+
 #. In a browser on your E-Commerce server, go to
-   ``http://localhost:8002/coupons/`` to open the coupon administration tool,
-   and then select **Create Coupon**.
+   ``http://localhost:8002/coupons/`` to access the E-Commerce Coupon
+   Administration tool.
+
+#. On the **Coupon Codes** page, select **Create Coupon**.
+
 #. On the **Create New Coupon** page, enter the following information.
 
    * **Coupon Name**: The name you want to give the coupon, such as "January
