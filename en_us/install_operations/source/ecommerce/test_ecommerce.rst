@@ -230,8 +230,8 @@ To configure the LMS, follow these steps.
 Configure E-Commerce
 ********************
 
-You use the Course Administration Tool ("CAT") to finish configuring the
-two courses in your LMS instance.
+You use the E-Commerce Course Administration Tool ("CAT") to finish configuring
+the two courses in your LMS instance.
 
 #. Become the ``ecommerce`` user.
 
@@ -289,9 +289,8 @@ two courses in your LMS instance.
 #. Get the course key from the LMS by navigating to a course and examining its
    URL. It should look something like ``course-v1:edX+DemoX+Demo_Course``.
 
-#. Navigate to the E-Commerce Courses section (e.g.
-   http://localhost:8002/courses/) and add a new course. Leave the default
-   values in all fields, with the exception of the following.
+#. Navigate to the E-Commerce Courses page (e.g. http://localhost:8002/courses/)
+   and click **Add New Course**. Leave the default values in all fields, with the exception of the following fields.
 
    ::
 
