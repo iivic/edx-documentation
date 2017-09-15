@@ -1,19 +1,33 @@
 .. _Programs:
 
 ################
-Create Programs
+About Programs
 ################
 
-Programs are collections of related courses. Learners enroll in a program by
-enrolling in any course that is part of a program, and earn a program
-certificate by passing each of the courses in the program with a grade that
-qualifies them for a verified certificate.
+Programs are collections of related courses that you make available on your
+marketing site.
 
-You add programs in the Django Administration site for your Open edX instance.
+You add programs and specify the courses that are in each program in the
+Django Administration site for your Open edX instance.
+
+The cost for a program is the sum of the cost for each of its courses. You can
+change the cost for a program by creating a program offer, which is a discount
+on the program price of either a percentage or fixed amount. For more details,
+see :ref:`Create Program Offers`.
+
+
+
+***************
+Create Programs
+***************
+
+
+
+
 
 To add a program, follow these steps.
 
-#. Sign into the Django administration site.
+#. Sign into the Django administration site for the discovery service.
 
 #. In the **Course Metadata** section, select **Programs**.
 
@@ -24,6 +38,12 @@ To add a program, follow these steps.
 #. Enter the information for the new program. Required fields, for example
    **Title** and **Status** have boldface names.
 
+   Specify the courses that are part of the program by entering course names in
+   the **Courses** field. Names of courses that already exist in the discovery
+   service are automatically matched as you continue to type.
+
+
+
 .. note:: To allow learners to purchase upgrades to the verified track for all
    the courses in the program with one click, select **One click purchase
    enabled**.
@@ -31,5 +51,11 @@ To add a program, follow these steps.
 #. When you have finished entering information for the program, select one of
    the **Save** options: **Save**, **Save and add another**, or **Save and
    continue editing**.
+
+This procedure completes the course and program structure. To provide "site functionality" for programs, the front end needs to know about the program and the program's cost
+
+
+
+
 
 .. include:: ../../../../links/links.rst
