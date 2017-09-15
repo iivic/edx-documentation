@@ -4,9 +4,9 @@
 Create Program Offers
 #####################
 
-Program offers are discounts, either percentage or absolute discounts, that
+Program offers are discounts, either percentage or fixed amount discounts, that
 apply to a specific program. When a program offer is active for a program, the
-program's price appears discounted both on the program's purchase button and in
+program's price appears discounted both on the program's purchase button and on
 the e-commerce checkout page.
 
 .. note:: Each program can be associated with only one program offer.

@@ -5,10 +5,8 @@ About Programs
 ################
 
 Programs are collections of related courses that you make available on your
-marketing site.
-
-You add programs and specify the courses that are in each program in the
-Django Administration site for your Open edX instance.
+marketing site. Each program is of a particular type. You can create one or more
+types of programs.
 
 The cost for a program is the sum of the cost for each of its courses. You can
 change the cost for a program by creating a program offer, which is a discount
@@ -16,14 +14,41 @@ on the program price of either a percentage or fixed amount. For more details,
 see :ref:`Create Program Offers`.
 
 
+********************
+Create Program Types
+********************
+
+You add program types in the Django Discovery Service Adminstration site for
+your Open edX instance.
+
+To add a program, follow these steps.
+
+#. Sign into the Discovery Service Administration site for your site. For
+   example, ``https://<baseURL>/admin/``
+
+#. In the **Course Metadata** section, select **Program types**.
+
+#. Select **Add Program Type**.
+
+#. On the **Add program type** page, specify a name for the new program type,
+   and select the seat types that are applicable to programs of this type.
+
+#. Optionally, add a program logo image and a slug for use on the marketing
+   site to this program type. Enter the information for the new program.
+
+#. When you have finished entering information for the program type, select one of
+   the **Save** options: **Save**, **Save and add another**, or **Save and
+   continue editing**.
+
+   You can now specify this program type when you create new programs.
+
 
 ***************
 Create Programs
 ***************
 
-
-
-
+You add programs and specify the courses that are in each program in the
+Django Administration site for your Open edX instance.
 
 To add a program, follow these steps.
 
@@ -35,24 +60,25 @@ To add a program, follow these steps.
 
 #. On the **Add Program** page, a UUID is assigned to the new program.
 
-#. Enter the information for the new program. Required fields, for example
-   **Title** and **Status** have boldface names.
+#. Enter information for the new program. Required fields, for example
+   **Title**, **Status** and **Type**, have boldface names.
 
-   Specify the courses that are part of the program by entering course names in
-   the **Courses** field. Names of courses that already exist in the discovery
-   service are automatically matched as you continue to type.
+   * In the **Courses** field, specify the courses that are part of the program.
+     Names of current courses are automatically matched as you continue to type.
+     To add a course that does not currently exist, click the plus sign (+) next
+     to the field to create a new course.
 
-
-
-.. note:: To allow learners to purchase upgrades to the verified track for all
-   the courses in the program with one click, select **One click purchase
-   enabled**.
+   * To allow learners to purchase upgrades to the verified track for all
+     the courses in the program with one click, select **One click purchase
+     enabled**.
 
 #. When you have finished entering information for the program, select one of
    the **Save** options: **Save**, **Save and add another**, or **Save and
    continue editing**.
 
-This procedure completes the course and program structure. To provide "site functionality" for programs, the front end needs to know about the program and the program's cost
+This procedure completes the course and program structure. To provide "site
+functionality" for programs, the LMS and marketing site also need to know about
+the program and the program offer, if any, that is associated with the program.
 
 
 
