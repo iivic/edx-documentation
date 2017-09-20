@@ -26,6 +26,7 @@ information, see :ref:`Additional Ecommerce Features`.
    :maxdepth: 2
 
    install_ecommerce
+   theming
    manage_assets
    create_products/index
    enable_receipt_page
